@@ -1,0 +1,293 @@
+body{
+	background-color: #e9e9e9;
+}
+
+.container{
+	background: url('images/header-background.png') repeat-x;
+}
+
+.container-inside{
+	background: url('images/header-background-inside.png') repeat-x;
+}
+
+.wrapper{
+	width: 970px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main-content{
+	margin: 0 0 40px 40px;
+}
+
+.navigation{
+	position: absolute;
+	background-color: #8498a8;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	font-family: "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.navigation ul li{
+	display: inline;
+	margin-right: 15px;
+}
+.navigation ul li:last-child{
+	margin-right: 0;
+}
+
+.navigation a:link, .navigation a:active, .navigation a:visited{
+	color: #fff;
+}
+
+.navigation a:hover{
+	color: #232b32;
+}
+
+header.logo{
+	margin: 0 40px 20px 40px;
+	padding: 95px 0 0;
+	height: 205px;
+}
+
+header.logo-inside{
+	margin: 0 40px 20px 40px;
+	padding: 15px 0 0;
+	height: 155px;
+}
+
+.logo-inside img{
+	margin-right: 10px;
+}
+
+h1.logo-title{
+	display: inline-block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #e9e9e9;
+	font-size: 45px;
+	width: 275px;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+h1 span{
+	font-size: 16px;
+	font-style: italic;
+}
+
+.logo-title.inside{
+	font-size: 30px;
+}
+
+.bbb-logo{
+	margin-left: 14px;
+}
+
+h3.title{
+	margin: 0 0 20px;
+}
+
+h3 span{
+	font-size: 20px;
+	font-style: italic;
+}
+
+header.logo img{
+	display: inline-block;
+	margin-right: 25px;
+}
+
+a:link, a:active, a:visited{
+	color: #3c5c75;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #232b32;
+}
+
+.quote-form{
+	width: 390px;
+	padding: 20px;
+	position: absolute;
+	top: 95px;
+	right: 0;
+	border-radius: 10px;
+
+	background: #e9e9e9; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #e9e9e9 0%, #dbd1a8 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e9e9e9), color-stop(100%,#dbd1a8)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #e9e9e9 0%,#dbd1a8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #e9e9e9 0%,#dbd1a8 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #e9e9e9 0%,#dbd1a8 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #e9e9e9 0%,#dbd1a8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#dbd1a8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.quote-txt{
+	font-size: 36px;
+	text-align: center;
+	font-style: italic;
+	margin: 0 0 20px;
+}
+
+.quote-form input,
+.quote-form textarea{
+	width: 375px;
+	background-color: #fff;
+	padding: 8px 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.quote-form textarea{
+	height: 100px;
+	margin: 3px 0 10px;
+}
+
+.quote-form input[type="submit"]{
+	background-color: #3c5c75;
+	color: #e9e9e9;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding: 10px;
+	cursor: pointer;
+	width: 50%;
+}
+
+.quote-form input[type="submit"]:hover{
+	background-color: #e9e9e9;
+	color: #3c5c75;
+}
+
+.hightlights{
+	display: block;
+	width: 450px;
+}
+
+.hightlights div{
+	width: 500px;
+}
+
+.hightlights ul{
+	display: inline-block;
+	margin: 0 20px;
+	vertical-align: top;
+}
+
+.hightlights li{
+	list-style-image: url("images/bullet.png");
+	margin: 15px 0 0;
+	font-size: 18px;
+}
+
+.timeline{
+	margin: 180px 0 0;
+}
+
+.timeline h3{
+	margin-bottom: 15px;
+}
+
+.inserts{
+	display: inline-block;
+	width: 185px;
+	margin-right: 15px;
+	vertical-align: top;
+}
+
+.inserts:last-child{
+	margin-right: 0;
+}
+
+.inserts h4{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.arrow{
+	width: 142px;
+	margin-top: 73px;
+}
+
+table{
+	width: 75%;
+}
+
+.call-quote div{
+	display: inline-block;
+}
+
+.call-us{
+	width: 230px;
+	background-color: #c3ad51;
+	vertical-align: top;
+	margin-left: -5px;
+	padding: 0 20px;
+	height: 250px;
+	-webkit-box-shadow: inset 10px -3px 7px -7px rgba(43,43,43,1);
+	-moz-box-shadow: inset 10px -3px 7px -7px rgba(43,43,43,1);
+	box-shadow: inset 10px -3px 7px -7px rgba(43,43,43,1);
+}
+
+.call-us h2{
+	font-size: 33px;
+}
+
+.pricing td{
+	padding: 10px 0;
+	font-size: 18px;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	border-bottom: 1px solid #c3ad51;
+	width: 75%;
+}
+
+ul.services li{
+	list-style-type: disc;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	list-style-position: inside;
+	margin-bottom: 5px;
+}
+
+footer{
+	background-color: #232b32;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.footer-content{
+	width: 970px;
+	margin: 0 auto;
+	position: relative;
+}
+
+footer ul li{
+	display: inline;
+}
+
+footer a:link, footer a:visited, footer a:active{
+	color: #fff;
+}
+
+footer a:hover{
+	color: #c3ad51;
+}
+
+footer p{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+

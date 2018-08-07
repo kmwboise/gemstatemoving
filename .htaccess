@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gemstatemoving\.us$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gemstatemoving\.us$
+RewriteRule ^/?$ "http\:\/\/www\.gemstatemoving\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^gemstatemoving\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gemstatemoving\.net$
+RewriteRule ^/?$ "http\:\/\/www\.gemstatemoving\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^gemstatemoving\.biz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gemstatemoving\.biz$
+RewriteRule ^/?$ "http\:\/\/www\.gemstatemoving\.com\/" [R=301,L]
+
